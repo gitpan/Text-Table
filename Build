@@ -11,7 +11,7 @@ sub magic_number_matches {
   open FH, '_build/magicnum' or return 0;
   my $filenum = <FH>;
   close FH;
-  return $filenum == 26220;
+  return $filenum == 468563;
 }
 
 my $progname;
@@ -32,13 +32,18 @@ BEGIN {
   unshift @INC,
     (
      'inc',
-     '/home/shlomif/apps/perl/local-lib/lib/perl5/i386-linux-thread-multi',
-     '/home/shlomif/apps/perl/local-lib/lib/perl5',
-     '/home/shlomif/apps/perl/modules/lib/perl5/site_perl/5.12.2/i386-linux-thread-multi',
-     '/home/shlomif/apps/perl/modules/lib/perl5/site_perl/5.12.2',
-     '/home/shlomif/apps/perl/modules/lib/site_perl/5.12.2',
-     '/home/shlomif/apps/perl/modules/lib/perl5/5.12.2/i386-linux-thread-multi',
-     '/home/shlomif/apps/perl/modules/lib/perl5/5.12.2'
+     '/home/shlomif/apps/perl/modules/lib/perl5/site_perl/5.12.3/x86_64-linux-thread-multi',
+     '/home/shlomif/apps/perl/modules/lib/perl5/site_perl/5.12.3',
+     '/home/shlomif/apps/perl/modules/lib/perl5/site_perl/5.12.1',
+     '/home/shlomif/apps/perl/modules/lib/perl5/site_perl/5.10.1/x86_64-linux-thread-multi',
+     '/home/shlomif/apps/perl/modules/lib/perl5/site_perl/5.10.1',
+     '/home/shlomif/apps/perl/modules/lib/site_perl/5.12.3',
+     '/home/shlomif/apps/perl/modules/lib/site_perl/5.12.1',
+     '/home/shlomif/apps/perl/modules/lib/site_perl/5.10.1',
+     '/home/shlomif/apps/perl/modules/lib/perl5/5.12.3',
+     '/home/shlomif/apps/perl/modules/lib/perl5/5.12.1',
+     '/home/shlomif/apps/perl/modules/lib/perl5/5.10.1/x86_64-linux-thread-multi',
+     '/home/shlomif/apps/perl/modules/lib/perl5/5.10.1'
     );
 }
 
