@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.36
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921'
 keywords:
   - art
   - ascii
@@ -25,13 +25,13 @@ name: Text-Table
 provides:
   Text::Table:
     file: lib/Text/Table.pm
-    version: 1.124
+    version: 1.125
 requires:
   Text::Aligner: 0.05
   strict: 0
   warnings: 0
 resources:
   homepage: http://www.shlomifish.org/open-source/projects/docmake/
-  license: http://opensource.org/licenses/bsd-license.php
+  license: http://www.opensource.org/licenses/bsd-license.php
   repository: https://github.com/shlomif/Text-Table
-version: 1.124
+version: 1.125

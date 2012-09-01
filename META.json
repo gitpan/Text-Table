@@ -4,7 +4,7 @@
       "Shlomi Fish <shlomif@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
    "keywords" : [
       "art",
       "ascii",
@@ -25,8 +25,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "List::Util" : 0,
-            "Test::More" : 0
+            "List::Util" : "0",
+            "Test::More" : "0"
          }
       },
       "configure" : {
@@ -37,26 +37,26 @@
       "runtime" : {
          "requires" : {
             "Text::Aligner" : "0.05",
-            "strict" : 0,
-            "warnings" : 0
+            "strict" : "0",
+            "warnings" : "0"
          }
       }
    },
    "provides" : {
       "Text::Table" : {
          "file" : "lib/Text/Table.pm",
-         "version" : "1.124"
+         "version" : "1.125"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "homepage" : "http://www.shlomifish.org/open-source/projects/docmake/",
       "license" : [
-         "http://opensource.org/licenses/bsd-license.php"
+         "http://www.opensource.org/licenses/bsd-license.php"
       ],
       "repository" : {
          "url" : "https://github.com/shlomif/Text-Table"
       }
    },
-   "version" : "1.124"
+   "version" : "1.125"
 }
