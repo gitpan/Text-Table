@@ -45,12 +45,11 @@
    "provides" : {
       "Text::Table" : {
          "file" : "lib/Text/Table.pm",
-         "version" : "1.126"
+         "version" : "1.127"
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://www.shlomifish.org/open-source/projects/docmake/",
       "license" : [
          "http://www.opensource.org/licenses/bsd-license.php"
       ],
@@ -58,5 +57,5 @@
          "url" : "https://github.com/shlomif/Text-Table"
       }
    },
-   "version" : "1.126"
+   "version" : "1.127"
 }
