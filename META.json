@@ -4,7 +4,7 @@
       "Shlomi Fish <shlomif@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
    "keywords" : [
       "art",
       "ascii",
@@ -45,7 +45,7 @@
    "provides" : {
       "Text::Table" : {
          "file" : "lib/Text/Table.pm",
-         "version" : "1.127"
+         "version" : "1.128"
       }
    },
    "release_status" : "stable",
@@ -57,5 +57,5 @@
          "url" : "https://github.com/shlomif/Text-Table"
       }
    },
-   "version" : "1.127"
+   "version" : "1.128"
 }
