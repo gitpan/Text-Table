@@ -4,7 +4,7 @@
       "Shlomi Fish <shlomif@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Module::Build version 0.4205",
    "keywords" : [
       "art",
       "ascii",
@@ -15,7 +15,7 @@
       "unicode"
    ],
    "license" : [
-      "bsd"
+      "mit"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -26,8 +26,7 @@
       "build" : {
          "requires" : {
             "List::Util" : "0",
-            "Test::More" : "0",
-            "perl" : "5.008"
+            "Test::More" : "0"
          }
       },
       "configure" : {
@@ -38,6 +37,7 @@
       "runtime" : {
          "requires" : {
             "Text::Aligner" : "0.05",
+            "perl" : "5.008",
             "strict" : "0",
             "warnings" : "0"
          }
@@ -46,17 +46,17 @@
    "provides" : {
       "Text::Table" : {
          "file" : "lib/Text/Table.pm",
-         "version" : "1.129"
+         "version" : "1.130"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
-         "http://www.opensource.org/licenses/bsd-license.php"
+         "http://www.opensource.org/licenses/mit-license.php"
       ],
       "repository" : {
          "url" : "https://github.com/shlomif/Text-Table"
       }
    },
-   "version" : "1.129"
+   "version" : "1.130"
 }
